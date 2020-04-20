@@ -179,3 +179,36 @@ div.search{
 	padding: 0px 5px;
 }
 
+div.bwidth{
+	width:  65%;
+}
+
+div.s1{
+	width: 65%;
+	margin-top: 20px;
+}
+
+table.ticker{
+	border: 3px solid orange;
+	border-collapse: collapse;
+	width: 100%;
+	height: 40px;
+}
+
+table.ticker th{
+	width: 18%;
+	background: orange;
+	color: white;
+	padding: 5px 10px;
+	font-family: arial;
+}
+
+table.ticker td{
+	width: 82%;
+	background-color: black;
+	color: #ffca66;
+	font-size: 110%;
+	padding: 5px 0px 0px 2px;
+	font-family: arial;
+}
+
