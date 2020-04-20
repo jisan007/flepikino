@@ -1,0 +1,181 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+div.fullw{
+	background-color: #2a2e33;
+	width: 100%;
+	height: 30px;
+	border-bottom: 3px solid orange;
+}
+
+div.fullw2{
+	width: 100%;
+	height: 60px;
+	margin: 15px 0px;
+}
+
+div.fullw3{
+	background-color: #2a2e33;
+	width: 100%;
+	height: 50px;
+	border-bottom: 3px solid orange;
+	border-top: 3px solid orange;
+}
+
+div.logo{
+	width: 65%;
+	margin: 0 auto;
+}
+
+div.navmenu{
+	width: 65%;
+	margin: 0 auto;
+}
+
+div.bwidth{
+	width: 65%;
+	margin: 0 auto;
+}
+
+nav.htop ul{
+	list-style: none;
+}
+
+nav.htop ul li a{
+	text-decoration: none;
+	color: white;	
+	font-size: 80%;
+	font-family: arial;
+	text-align: center;
+}
+
+nav.htop ul li{
+	display: inline-block;
+	padding: 5px 10px;
+	border-right: 3px solid black;
+	border-left: 3px solid #484b52;
+	margin: 0 -2px;	
+	height: 20px;
+}
+
+nav.htop ul li:first-child{
+	border-left: none;
+}
+
+nav.htop ul li:last-child{
+	border-right: none;
+}
+
+nav.htop ul li:hover{
+	background-color: orange;
+	height: 20px;	
+}
+
+nav.htop ul li:hover a{
+	text-decoration: none;
+	color: white;	
+}
+
+div.p1{
+	width: 65%;
+	float: left;
+}
+
+div.p2{
+	width: 35%;
+	float: left;
+	text-align: right;
+}
+
+div.p2 nav ul{
+	list-style: none;
+}
+
+
+div.p2 nav ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 80%;
+	font-family: arial;
+	text-align: center;
+}
+
+div.p2 nav ul li{
+	display: inline-block;
+	padding: 5px 10px;
+	height: 20px;
+}
+
+div.p2 nav ul li:hover{
+	background-color: white;
+	height: 20px;
+}
+
+div.p2 nav ul li:hover a{
+	text-decoration: none;
+	color: orange;
+}
+
+div.menu{
+	width: 65%;
+	float: left;
+}
+
+nav.hdown ul{
+	list-style: none;
+}
+
+nav.hdown ul li a{
+	text-decoration: none;
+	color: orange;	
+	font-weight: bold;
+	font-family: arial;
+	text-align: center;
+}
+
+nav.hdown ul li{
+	display: inline-block;
+	padding: 15px 10px;
+	border-right: 3px solid black;
+	border-left: 3px solid #484b52;
+	margin: 0 -2px;	
+	height: 20px
+}
+
+nav.hdown ul li:first-child{
+	border-left: none;
+}
+
+nav.hdown ul li:last-child{
+	border-right: none;
+}
+
+nav.hdown ul li:hover{
+	background-color: orange;
+	height: 20px;	
+}
+
+nav.hdown ul li:hover a{
+	text-decoration: none;
+	color: white;
+}
+
+div.search{
+	float: right;
+	padding: 11px 10px;
+}
+
+.sbox{
+	border-radius: 10px;
+	height: 27px;
+	border: 1px solid orange;
+	padding: 0px 3px;
+}
+
+.sbox:focus{
+	background: orange;
+	color: white;
+	padding: 0px 5px;
+}
+
